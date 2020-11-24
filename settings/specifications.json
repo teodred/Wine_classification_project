@@ -1,0 +1,126 @@
+{
+
+    "handle_outliers":[
+        "in_columns",
+        "modes",
+        "methods",
+        "factors",
+        "upper_quantiles",
+        "lower_quantiles"
+    ],
+
+    "fill_nans":[
+        "in_columns",
+        "methods",
+        "custom_values"
+    ],
+
+    "bins":[
+        "in_columns",
+        "bins_nums",
+        "methods",
+        "conditions",
+        "choices",
+        "defaults",
+        "inplaces"
+    ],
+
+    "replace":[
+        "in_columns",
+        "old_values",
+        "new_values",
+        "condition_columns",
+        "conditions",
+        "condition_values",
+        "defaults",
+        "inplaces"
+    ],
+
+    "columns_combination":[
+        "in_columns_list",
+        "out_columns",
+        "methods",
+        "coefficients_list",
+        "biases"
+    ],
+    "process_dates":[
+        "in_columns",
+        "date_formats",
+        "timestamps"
+    ],
+
+    "apply_regex":[
+        "in_columns",
+        "out_columns",
+        "methods",
+        "patterns",
+        "inplaces",
+        "maxsplits",
+        "rep_values",
+        "counts",
+        "indexes",
+        "groups"
+    ],
+
+    "log_transform":[
+        "in_columns"
+    ],
+
+    "normalize":[
+        "in_columns"
+    ],
+
+    "standardize":[
+        "in_columns"
+    ],
+
+     "drop_columns":[
+        "in_columns"
+    ],
+
+    "select_columns":[
+        "in_columns"
+    ],
+
+    "encode_labels":[
+         "in_columns"
+     ],
+
+    "one_hot_encode":[
+        "in_columns"
+    ],
+        "description": {
+        "X": [
+            "fixed acidity",
+            "volatile acidity",
+            "citric acid",
+            "residual sugar",
+            "chlorides",
+            "free sulfur dioxide",
+            "total sulfur dioxide",
+            "density",
+            "pH",
+            "sulphates",
+            "alcohol"
+        ],
+        "final_columns" : [
+            "fixed acidity",
+            "volatile acidity",
+            "citric acid",
+            "residual sugar",
+            "chlorides",
+            "free sulfur dioxide",
+            "total sulfur dioxide",
+            "density",
+            "pH",
+            "sulphates",
+            "alcohol"
+        ],
+        "y" : "is_good",
+        "metrics": "accuracy_score"
+    },
+    "operations": []
+
+}
+
+
